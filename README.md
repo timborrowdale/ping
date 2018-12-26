@@ -1,3 +1,25 @@
+# Ping
+
+This is a basic web app that calculates fixtures and results tables for sets of 3-6 people per group.
+
+It is deployed at https://www.anneborrowdale.co.uk/ping 
+
+## Number of games 
+
+With the exception of the 6 player groups every person will play 12 games to 11, so they can be compared to other groups of different sizes. The 6 player group plays 10 games each.
+
+## Results
+
+Results are sorted by total points scored, and in the case of a tie, the player who conceded the least points is placed higher.
+
+## Reset
+
+Fixtures and results are stored locally on the browser, so if the page is refreshed then you will not lose anything already recorded. To reset for a new game there is a reset button at the bottom of the page.
+
+
+# Technical Stuff
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
