@@ -1,0 +1,12 @@
+.player_result {
+  display: grid;
+  grid-template-columns: 40% 15% 15% 15% 15%;
+
+  div {
+    margin: 10px 5px;
+  }
+
+  .player_name {
+    text-transform: capitalize;
+  }
+}

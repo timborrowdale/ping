@@ -1,0 +1,35 @@
+@import './colours.scss';
+
+.app {
+  min-width: 300px;
+  max-width: 800px;
+  min-height: 100%;
+  margin: auto;
+  padding: 28px;
+  background-color: $primary;
+  color: white;
+
+  button {
+    background-color: $secondary;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+
+  & > button {
+    padding: 15px 20px;
+  }
+
+  input {
+    height: 32px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px 5px 10px auto;
+  }
+  
+}

@@ -1,0 +1,45 @@
+.fixtures {
+
+  .fixture {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-bottom: 10px;
+    border-bottom: 4px solid white;
+    margin-bottom: 10px;
+    align-items: center;
+
+    .fixtureTitle {
+      h3 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 150px);
+
+      .game_score {
+        display: grid;
+        justify-items: center;
+
+        p {
+          text-align: center;
+          margin: 0;
+          color: rgb(222, 222, 222);
+          font-weight: bold;
+        }
+
+        input {
+          display: inline-block;
+          width: 60px;
+          text-align: center;
+          font-weight: bold;
+          font-size: 20px;
+        }
+      }
+
+    }
+
+  }
+}

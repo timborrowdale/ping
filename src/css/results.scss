@@ -1,0 +1,23 @@
+.results {
+
+  margin-top: 20px;
+
+  .header {    
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+  }
+
+  > div.player_result {
+    background-color: rgb(238, 213, 130);
+    color: black;
+  }
+
+  > div.player_result ~ div.player_result {
+    background-color: inherit;
+    color: inherit;
+  }
+}

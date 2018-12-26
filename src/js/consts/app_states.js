@@ -1,0 +1,5 @@
+export default {
+  APP_STATE_START: 0,
+  APP_STATE_PLAYER_SELECT: 1,
+  APP_STATE_PLAYING: 2
+}

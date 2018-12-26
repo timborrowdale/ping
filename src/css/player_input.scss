@@ -1,0 +1,11 @@
+.player_input {
+  display: grid;
+  width: 50%;
+  min-width: 200px;
+  grid-template-columns: 80% 20%;
+  padding-left: 30px;
+
+  input {
+    width: 100%;
+  }
+}

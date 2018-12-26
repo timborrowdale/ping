@@ -1,0 +1,13 @@
+li.player_display div {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  min-width: 200px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+
+  span {
+    text-transform: capitalize;
+  }
+}
