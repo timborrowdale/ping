@@ -20,7 +20,7 @@ export default class Rules extends React.Component {
           <ul>
             <li>Place game scores in the same order as listed - e.g. in A vs B put A's score in the first column and B's score in the second.</li>
             <li>Play the full number of games in each fixture.</li>
-            <li>No dueces, first to 11 wins the game.</li>
+            <li>No deuces, first to 11 wins the game.</li>
           </ul>
          ) : null}
     </div>);
