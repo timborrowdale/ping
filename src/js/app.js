@@ -38,7 +38,7 @@ class App extends Component {
         {this.getAppStateView()}
         {this.props.app_state === states.APP_STATE_PLAYING ? <Results /> : null}
         {this.props.app_state === states.APP_STATE_PLAYING ? <button onClick={this.onReset}>Reset</button> : null}
-        <p>Source: <a href="https://www.github.com/timborrowdale/ping" target="_blank">https://www.github.com/timborrowdale/ping</a>
+        <p>Source: <a href="https://www.github.com/timborrowdale/ping">https://www.github.com/timborrowdale/ping</a></p>
       </>
     );
   }
